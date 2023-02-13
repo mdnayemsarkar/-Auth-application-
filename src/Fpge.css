@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 10000px;
+    width: 100%;
+  }
+  header{
+    background: bisque;
+    display: flex;
+    align-items:center;
+    padding: 15px 0;
+  }
+  header a{
+    color: rgb(21, 4, 83);
+  }
+  header ul{
+    list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  }
+  #logo{
+    margin: 0 auto;
+    font-size: 30px;
+  }
+  #menu li{
+    padding:5px  15px;
+    border: .5px solid;
+    border-radius: 30px;
+    box-shadow: cornflowerblue;
+  }
+  #menu li:hover{
+    background: dodgerblue;
+    color: #022413;
+  }
+  #social-link li{
+    padding: 10px;
+  }
+  .srvc-cntnr{
+    display: flex;
+    justify-content: space-between;
+  }
+  .srvc-bx{
+    border: 1px solid blueviolet;
+    padding: 10px;
+    flex-basis: 32%;
+    max-width: 370px;
+  
+  }
+  .srvc-bx img{
+    width: 100%;
+  }
+  #main{
+    display: flex;
+  
+  }
+  aside{
+    padding: 10px;
+    flex:0 0 20vw ;
+    background: burlywood;
+  }
+  article{
+    padding: 10px;
+  }
+  footer{
+    color: aqua;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .sbbr{
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+  .sbbr li{
+    height: 60px;
+    width: 200px;
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  background: #440505;
+  color: rgb(15, 163, 52);
+  margin: 5px;
+  cursor: pointer;
+  }
+  .sbbr li:hover{
+    background: rgb(41, 129, 41);
+    color: beige;
+  }
