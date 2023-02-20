@@ -10,8 +10,8 @@ function Fourth(){
     <h1 classNames="text-3xl font-medium">Welcome!</h1>
     <nav className="flex items-center">
       <a className="px-3 py-2 border-l-2 border-t-2 border-red-400 rounded-lg bg-indigo-500 text-white mr-4 hover:bg-indigo-600" href="#">Home</a>
-      <NavLink className="px-3 py-2 rounded-lg bg-indigo-500 text-white mr-4 hover:bg-indigo-600" to="/5th">About</NavLink>
-      <NavLink className="px-3 py-2 rounded-lg bg-indigo-500 text-white hover:bg-indigo-600" to="/6th">Contact</NavLink>
+      <NavLink className="px-3 py-2 rounded-lg bg-indigo-500 text-white mr-4 border-t-2 border-l-2 border-red-400 hover:bg-indigo-600" to="/5th">About</NavLink>
+      <NavLink className="px-3 py-2 rounded-lg bg-indigo-500 text-white border-t-2 border-l-2 border-red-400 hover:bg-indigo-600" to="/6th">Contact</NavLink>
     </nav>
   </header>
 

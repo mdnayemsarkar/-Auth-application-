@@ -4,12 +4,12 @@ function About() {
   return (
     <div className="bg-gray-200 min-h-screen p-10">
       <header className="flex items-center justify-between mb-10">
-        <a className="text-3xl font-medium" href="#">
+        <a className="text-3xl font-medium border-t-green-400 border-l-green-400" href="#">
           Home
         </a>
         <nav className="flex items-center">
           <a
-            className="px-3 py-2 rounded-lg bg-indigo-500 text-white mr-4 hover:bg-indigo-600"
+            className="px-3 py-2 rounded-lg bg-indigo-500 text-white mr-4 outline-green-400 hover:bg-indigo-600"
             href="#"
           >
             About
@@ -37,8 +37,11 @@ function About() {
               Sed euismod, lacus vel aliquam fringilla, magna lectus tristique
               libero, sit amet commodo sem diam sit amet est.
             </p>
+
+            {/* image start here  */}
+
           </div>
-          <div><img src={image} alt="" className="w-[350px] h-[350px] rounded-2xl hover:w-[360px]" /></div>
+          <div><img src={image} alt="" className="w-[350px] h-[350px] rounded-2xl hover:w-[360px] transition-all" /></div>
         </div>
       </main>
 

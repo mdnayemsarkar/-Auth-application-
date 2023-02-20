@@ -5,7 +5,7 @@ import Trd from "./Third"
 import Fourth from "./Home"
 import About from "./About"
 import Contact from "./Contact"
-
+import Home from "./Home2"
 
 function Routs() {
   const router = createBrowserRouter([
@@ -42,6 +42,10 @@ function Routs() {
       {
         path: "6th",
         element: <Contact/>
+      },
+      {
+        path: "7th",
+        element: <Home/>
       },
   ]);
   return <RouterProvider router={router} />;
